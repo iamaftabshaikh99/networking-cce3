@@ -1,7 +1,5 @@
 ### Q1) What are the various classes in IPv4? Explain all in detail.
 
-#### Stretched and Elaborated Answer:
-
 IPv4 (Internet Protocol Version 4) is a fundamental protocol in the TCP/IP suite. To accommodate networks of varying sizes, IPv4 divides its 32-bit address space into five distinct classes: **Class A, Class B, Class C, Class D, and Class E**. Each class has specific characteristics and purposes, allowing for efficient allocation and management of IP addresses.
 
 ---
@@ -82,7 +80,6 @@ IPv4 (Internet Protocol Version 4) is a fundamental protocol in the TCP/IP suite
 
 ### Q2) List IP address classes with their range. What is CIDR? Give the binary equivalent of IP address 192.156.5.0.
 
-#### **Elaborated Answer**
 
 #### **IP Address Classes with Their Ranges**
 
@@ -161,7 +158,6 @@ Converting an IPv4 address to binary involves representing each octet (separated
 
 ### Q3) What is the need for IPv6? Explain the address header of IPv6 with a diagram.
 
-#### **Elaborated Answer**
 
 IPv4 has been the backbone of internet communication since its inception. However, its limitations in terms of address space and scalability have driven the development of IPv6. IPv6 is the next generation of the Internet Protocol, designed to address the shortcomings of IPv4 while providing new features for a more robust and secure internet.
 
@@ -252,8 +248,6 @@ Here’s a graphical representation of the IPv6 header:
 IPv6 is not just a replacement for IPv4; it is a significant upgrade, designed to meet the demands of the modern and future internet. Its larger address space, improved security, and advanced features make it essential for the evolving digital landscape.
 
 ### Q4) Divide the given network address into 4 equal parts to hold a maximum of 40 devices in each. Address: 192.168.14.14/25.
-
-#### **Elaborated Answer**
 
 To divide the given network address `192.168.14.14/25` into 4 equal parts, each accommodating up to 40 devices, we need to calculate the subnets carefully. Here’s a detailed breakdown:
 
@@ -351,8 +345,6 @@ Based on the requirements of 4 equal parts, we assign the following subnets:
 The network `192.168.14.14/25` is divided into 4 equal subnets with a subnet mask of `/26`, providing 62 usable addresses in each subnet. These subnets meet the requirement of accommodating up to 40 devices each while leaving additional IPs for future use or network expansion.
 
 ### Q5) Difference between IPv4 and IPv6?
-
-#### **Elaborated Answer**
 
 IPv4 and IPv6 are the two major versions of the Internet Protocol. IPv6 was introduced to address the limitations of IPv4 and to support the growing needs of the internet. Below is a detailed comparison of the two protocols, focusing on their differences in terms of address space, security, efficiency, and other critical aspects.
 
@@ -479,7 +471,6 @@ IPv6 is not merely an upgrade to IPv4; it represents a paradigm shift in network
 
 ### Q6) Explain Distance Vector Routing in detail.
 
-#### **Elaborated Answer**
 
 Distance Vector Routing is a fundamental routing concept used in computer networks to determine the best path for data packets. It is based on the principle of exchanging routing information with neighboring routers to build a routing table. This method uses distance (e.g., the number of hops) and direction (vector) to decide the route.
 
@@ -635,7 +626,6 @@ Distance Vector Routing is a simple yet powerful routing methodology that forms 
 
 ### Q7) Compare and contrast Subnetting and Supernetting.
 
-#### **Elaborated Answer**
 
 Subnetting and Supernetting are two techniques used in IP addressing to optimize the allocation of IP address space and improve network efficiency. While both are crucial for efficient network management, they serve different purposes and are applied in distinct scenarios.
 
@@ -781,8 +771,6 @@ Subnetting and Supernetting are critical techniques in IP networking. **Subnetti
 
 ### Q8) Explain Network Address Translation (NAT) with a suitable example.
 
-#### **Elaborated Answer**
-
 Network Address Translation (NAT) is a networking process that modifies the IP address information in packet headers while they are in transit across a router. NAT is widely used to conserve public IP addresses and to improve network security by masking internal private IP addresses from external networks.
 
 ---
@@ -923,8 +911,6 @@ Network Address Translation (NAT) is an indispensable technique in modern networ
 
 
 ### Q9) Differentiate between TCP and UDP
-
-#### **Elaborated Answer**
 
 TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two most commonly used transport layer protocols in computer networking. While both are crucial for data transmission, they differ significantly in terms of reliability, speed, and use cases.
 
@@ -1070,8 +1056,6 @@ No acknowledgments or retransmissions
 TCP and UDP cater to different types of applications in networking. **TCP’s reliability and error-checking mechanisms make it ideal for applications requiring accurate data delivery**, while **UDP’s speed and low overhead are perfect for real-time, latency-sensitive applications**. Understanding the differences helps in choosing the right protocol based on the specific requirements of a use case.
 
 ### Q10) What are the services of the network layer?
-
-#### **Elaborated Answer**
 
 The network layer, the third layer in the OSI model, is crucial for the reliable delivery of data packets between devices across networks. Its primary role is to manage the routing, addressing, and delivery of data packets in a networked environment. Below is an in-depth exploration of the services offered by the network layer.
 
